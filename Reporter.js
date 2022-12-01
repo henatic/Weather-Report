@@ -3,7 +3,7 @@ const puppeteer = require("puppeteer");
 const fs = require("fs");
 const date = new Date();
 let currYear = date.getFullYear();
-process.chdir("U:Eureka\\SWPPP-INFO\\Rainfall_data-Eka\\");
+// process.chdir("U:Eureka\\SWPPP-INFO\\Rainfall_data-Eka\\");
 let dir = currYear + '/';
 
 /**
