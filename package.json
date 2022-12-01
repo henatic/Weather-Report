@@ -1,0 +1,28 @@
+{
+  "name": "weather-report",
+  "version": "1.0.0",
+  "description": "Creates a PDF of Eureka, California's weather report every 72 hours.",
+  "main": "Reporter.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/henatic/Weather-Report.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/henatic/Weather-Report/issues"
+  },
+  "homepage": "https://github.com/henatic/Weather-Report#readme",
+  "dependencies": {
+    "child_process": "^1.0.2",
+    "fs": "^0.0.1-security",
+    "path": "^0.12.7",
+    "puppeteer": "^19.3.0",
+    "sleep-promise": "^9.1.0"
+  },
+  "devDependencies": {}
+}
